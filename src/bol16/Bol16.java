@@ -15,7 +15,10 @@ public class Bol16 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        Canario canario=new Canario();
+        Persoa tenor=new Persoa();
+        tenor.Cantar();
+        canario.Cantar();
     }
     
 }
